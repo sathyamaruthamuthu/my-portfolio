@@ -1,0 +1,42 @@
+.my-projects {
+    .projects-container {
+        display: flex;
+        padding: 10px;
+
+        .project-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 3px;
+            padding: 10px;
+            margin: 5px;
+
+            .project-image {
+                width: 150px;
+                height: auto;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+.my-skills {
+    .skills-container {
+        display: flex;
+        padding: 10px;
+
+        .skill-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 3px;
+            padding: 10px;
+            margin: 5px;
+            width: 100%;
+        }
+    }
+
+}
+.my-skills, .my-projects {
+    background: linear-gradient(to right, #b5b09d, #d1cebf);
+    padding: 10px;
+}
+
+.skills-title, .project-title {
+    padding-left: 15px;
+}

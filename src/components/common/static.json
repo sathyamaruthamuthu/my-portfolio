@@ -1,0 +1,56 @@
+{
+    
+    "portfolio": {
+        "title": "Hi, I'm Sathya Maruthamuthu",
+        "description": "A passionate and creative developer with a strong background in web applications development, UI/UX design. I am very much interested in ecommerce applications and have a strong understanding web technologies and frameworks. Over 10+ years of experience in web development and design, I have worked on different projects with different technoligies. In Each project I have contributed fully and shown my ownership and responsibility till project completion. ",
+        "shortdescription": "A developer with dedication and passion for creating innovative web applications and user experiences.",
+        "photo": "src/images/photo1.jpg"
+    },
+    "skills": [
+        {
+            "name": "Frontend Skills",
+            "skills": ["JavaScript", "React", "HTML", "CSS", "TypeScript", "Bootstrap"]
+        },
+        {
+            "name":"Backend Skills",
+            "skills": ["Node.js", "MongoDB", "Rest API"]
+        },
+        {
+            "name": "Tools",
+            "skills": ["Git", "Bitbucket", "Jira", "Confluence", "Figma", "Jenkins", "VSCode"]
+        }        
+    ],
+    "projects": [
+        {
+            "name": "Nuskin Enterprise Ecommerce Application",
+            "description": "Developed a full-featured ecommerce application with a user-friendly interface, secure payment gateway integration, and responsive design for seamless shopping experience across devices.",
+            "technologies": ["React", "Javascript", "TypeScript", "Bootstrap"],
+            "link": "",
+            "image": "nuskin.png"
+        },
+        {
+            "name": "Mysite Redesign",
+            "description": "Redesigned the existing website to improve user experience, enhance visual appeal, and optimize performance, resulting in increased user engagement and conversion rates.",
+            "technologies": ["React", "Javascript", "TypeScript", "Bootstrap"],
+            "link": "",
+            "image": "nuskinba.jpg"
+        },
+        {
+            "name": "TrackMate",
+            "description": "Developed a comprehensive tracking application that allows users to monitor and manage their shipments in real-time, providing accurate updates and notifications for improved logistics management.",
+            "technologies": ["React", "Javascript", "TypeScript", "Bootstrap"],
+            "link": "",
+            "image": "login_page.png"
+        }
+    ],
+    "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/sathya-maruthamuthu-39763758/",
+        "github": "https://github.com/sathyamaruthamuthu",
+        "upwork": "https://www.upwork.com/freelancers/~0172ffb23729d1513d"
+    },
+    "contactInfo": {
+        "email": "sathyajeevitha@gmail.com",
+        "phone": "+91 9087254694"
+    }
+}
+    

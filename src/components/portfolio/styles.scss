@@ -1,0 +1,64 @@
+.portfolio-container {
+    background-color: #fef9f3;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #dcd5c9, #f5f3ee);
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+    .intro-section {
+        flex: 1;
+        color: #6b6b6b;
+    }
+
+    .profile-card {
+        flex: 1;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+
+    .profile-photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 2rem;
+    }
+
+    
+
+    .about {
+        margin-top: 1rem;
+        color: #444;
+        line-height: 1.5;
+    }
+
+    .pf-tabs {
+        display: flex;
+        margin-top: 1rem;
+        padding-left: 0px;
+        flex-wrap: wrap;
+        gap: 10px;
+        .pf-tab {
+            margin-right: 10px;
+            background-color: #b5b09d;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            padding: 8px 12px;
+
+            &:hover {
+                background-color: #fef9f3;
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: 500;
+                color: #000000;
+            }
+        }
+    }
+}

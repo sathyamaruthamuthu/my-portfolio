@@ -1,0 +1,25 @@
+.contact-info {
+    padding: 10px;
+    background: linear-gradient(to right, #b5b09d, #f5f3ee);
+    .contact-details {
+        display: flex;
+
+        .contact-photo {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .cn-info {
+            padding:10px;
+
+            .cn-icons {
+                span {
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+
+    
+}
