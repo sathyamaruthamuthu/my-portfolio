@@ -37,7 +37,7 @@
         },
         {
             "name": "TrackMate",
-            "description": "Developed a comprehensive tracking application that allows users to monitor and manage their shipments in real-time, providing accurate updates and notifications for improved logistics management.",
+            "description": "Developed a comprehensive tracking application that allows users to monitor and manage their expenses, providing accurate updates and notifications for expenses management. And upgrading this application to a full-featured expense management system with advanced analytics and reporting capabilities.",
             "technologies": ["React", "Javascript", "TypeScript", "Bootstrap"],
             "link": "",
             "image": "login_page.png"

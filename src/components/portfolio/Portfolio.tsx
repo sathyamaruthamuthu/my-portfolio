@@ -1,6 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import { AboutMeProps } from "./types";
 import photo from "../../images/photo1.jpg";
 import data from '../../components/common/static.json';
 import './styles.scss';

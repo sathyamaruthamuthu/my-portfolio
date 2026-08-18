@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Skills from './components/projects/Skills';
@@ -9,7 +8,7 @@ import './App.css';
 function App() {
   
   return (
-    <BrowserRouter>
+    
       <div className="App">
         <header className="App-header">
           <Portfolio />
@@ -18,7 +17,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
-    </BrowserRouter>
+    
   );
 }
 
