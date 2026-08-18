@@ -36,6 +36,11 @@ const Portfolio: React.FC  = () => {
                                 Contact
                             </a>
                         </div>
+                        <div className="pf-tab">
+                            <a href="/Sathya_M.pdf" download className="download-btn">
+                                Download Resume
+                            </a>
+                        </div>
                     </div>
                 </section>
 
