@@ -9,6 +9,10 @@
     .intro-section {
         flex: 1;
         color: #6b6b6b;
+
+        .pf-title {
+            margin-bottom: 0px;
+        }
     }
 
     .profile-card {
@@ -18,15 +22,48 @@
         padding: 2rem;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         position: relative;
+
+        .profile-photo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 2rem;
+        }
+
+        .status-block {
+            text-align: center;
+            margin-top: 14px;
+        }
+        .location {
+            font-size: 13px;
+            font-weight: 500;
+            color: #1f2937;
+            margin-bottom: 4px;
+        }
+        .availability {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            color: #4b5563;
+        }
+        .status-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #22c55e;
+            display: inline-block;
+        }
     }
 
-    .profile-photo {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-right: 2rem;
-    }
+    
 
     
 
@@ -61,4 +98,6 @@
             }
         }
     }
+
+    
 }

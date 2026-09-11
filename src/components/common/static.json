@@ -1,46 +1,54 @@
 {
     
     "portfolio": {
-        "title": "Hi, I'm Sathya Maruthamuthu",
-        "description": "A passionate and creative developer with a strong background in web applications development, UI/UX design. I am very much interested in ecommerce applications and have a strong understanding web technologies and frameworks. Over 10+ years of experience in web development and design, I have worked on different projects with different technoligies. In Each project I have contributed fully and shown my ownership and responsibility till project completion. ",
+        "title": "Sathya Maruthamuthu",
+        "subtitle": "Senior Frontend Developer",
+        "description": "Senior Frontend Developer with 10+ years building scalable, high-performance e-commerce platforms in React.js — from checkout and payments to product catalog and order management. I've led frontend teams of up to 8 engineers delivering enterprise applications for brands including Keurig, Toms, Kraft, L.L.Bean, and Kohl's, with a focus on reusable component architecture, accessibility, and Core Web Vitals performance. I care as much about the codebase my team inherits as the product our users see.",
         "shortdescription": "A developer with dedication and passion for creating innovative web applications and user experiences.",
-        "photo": "src/images/photo1.jpg"
+        "photo": "src/images/photo1.jpg",
+        "location": "Coimbatore, India",
+        "availability": "Open to work"
     },
     "skills": [
         {
-            "name": "Frontend Skills",
-            "skills": ["JavaScript", "React", "HTML", "CSS", "TypeScript", "Bootstrap"]
+            "name": "Frontend",
+            "icon": "IconCode",
+            "skills": ["JavaScript (ES6+)", "TypeScript",  "React.js", "Redux", "MobX", "Micro Frontend Architecture", "HTML5", "CSS3", "Bootstrap", "Responsive & Accessible (ADA-Compliant) UI"]
         },
         {
-            "name":"Backend Skills",
-            "skills": ["Node.js", "MongoDB", "Rest API"]
+            "name":"Backend",
+            "icon": "IconServer2",
+            "skills": ["Node.js", "MongoDB", "Rest API Integration"]
         },
         {
             "name": "Tools",
-            "skills": ["Git", "Bitbucket", "Jira", "Confluence", "Figma", "Jenkins", "VSCode"]
+            "icon": "IconTool",
+            "skills": ["Git", "Bitbucket", "Jira", "Jest", "Figma", "Jenkins"]
         }        
     ],
     "projects": [
         {
             "name": "Nuskin Enterprise Ecommerce Application",
-            "description": "Developed a full-featured ecommerce application with a user-friendly interface, secure payment gateway integration, and responsive design for seamless shopping experience across devices.",
+            "description": "Contributed as an individual frontend developer on Nuskin's enterprise e-commerce platform, building key modules across the shopping journey — subscription management, payment integration, cart, checkout, and order management. Worked within a reusable React component library to keep implementations consistent across the application, and built with responsiveness and ADA compliance in mind throughout. Collaborated closely with backend teams to wire up secure, reliable API integrations for each module. Enterprise project — source proprietary, screenshots above.",
             "technologies": ["React", "Javascript", "TypeScript", "Bootstrap"],
-            "link": "",
+            "link": "https://www.nuskin.com/",
             "image": "nuskin.png"
         },
         {
             "name": "Mysite Redesign",
-            "description": "Redesigned the existing website to improve user experience, enhance visual appeal, and optimize performance, resulting in increased user engagement and conversion rates.",
+            "description": "Led a team of 8 frontend developers through a full redesign of an aging client site that had fallen behind on UX after years without an update. Architected the rebuild using Micro Frontend Architecture — developing and building the new experience as a standalone application, then integrating it into the existing Nuskin codebase. This let the team ship independently without blocking or destabilizing the main application, and gave the client a modern experience without a risky full rewrite. Directed sprint planning and code reviews throughout delivery. Enterprise project — source proprietary.",
             "technologies": ["React", "Javascript", "TypeScript", "Bootstrap"],
             "link": "",
             "image": "nuskinba.jpg"
         },
         {
             "name": "TrackMate",
-            "description": "Developed a comprehensive tracking application that allows users to monitor and manage their expenses, providing accurate updates and notifications for expenses management. And upgrading this application to a full-featured expense management system with advanced analytics and reporting capabilities.",
-            "technologies": ["React", "Javascript", "TypeScript", "Bootstrap"],
+            "subtitle": "(Personal project, In-Progress)",
+            "description": "Built an expense-tracking app end-to-end as a way to deepen my backend skills alongside frontend — hands-on with [Node.js/Express Js/MongoDB] on the backend, React on the front. Currently expense logging and tracking work, with analytics and reporting features in active development",
+            "technologies": ["React", "Javascript", "TypeScript", "Express JS, Node JS, MongoDB"],
             "link": "",
-            "image": "login_page.png"
+            "image": "login_page.png",
+            "github_link": "https://github.com/sathyamaruthamuthu/trackexpenses"
         }
     ],
     "socialLinks": {
